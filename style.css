@@ -1,0 +1,25 @@
+h3 {
+    font-size: 25px !important;
+    box-shadow: 5px 5px 10px rgb(141, 243, 238);
+   }
+
+.btn-primary:hover{
+    background: #080257 ;
+    box-shadow: 5px 5px 10px rgb(107, 133, 206);
+}
+
+.btn-primary{
+    box-shadow: 5px 5px 10px rgb(114, 208, 236);
+}
+
+canvas{
+    animation-name: Project114;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Project114{
+    from {box-shadow: 1px 1px 10px #00ffff ;}
+
+    to {box-shadow: 5px 5px 100px #038af2 ;}
+}
